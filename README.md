@@ -1,11 +1,11 @@
 
 Hey Everyone
 
-I would like to share this script to create alerts when someone loggin into a SSH session really easly using Gmail a smtp provedir. Just modify first values:
+I would like to share this script to create alerts when someone loggin into a SSH session easly using Gmail as SMTP provider. Just modify first values in the autodeply.sh file:
 
 #----------------------------------------------------
 
-smtpuser="[smtp.gmail.com]:587 remitentaccount@gmail.com:passwordapp"
+smtpuser="[smtp.gmail.com]:587 fromaccount@gmail.com:smtppassword"
 destinationmail="destinationaccount@sysadmin.com"
 
 #----------------------------------------------------
