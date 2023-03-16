@@ -10,6 +10,6 @@ destinationmail="destinationaccount@sysadmin.com"
 
 #----------------------------------------------------
 
-If you don´t have a SMTP gmail password, I suggest you follow the next steps first (until step 6) to active it -> https://evermap.com/Tutorial_ADM_UsingAppPasswordsGmail.asp
+If you don´t have a SMTP gmail password, I suggest you to follow the next steps first (until step 6) to active it -> https://evermap.com/Tutorial_ADM_UsingAppPasswordsGmail.asp
 
 I hope you find this script usefull
