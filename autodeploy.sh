@@ -13,7 +13,7 @@ destinationmail="destinationaccount@sysadmin.com"
 sudo apt update -y
 sudo apt install postfix libsasl2-modules mailutils -y
 
-#delete actual config file if exist, and create the new configuracion file
+#delete actual config file if exist, and create the new configuration file
 rm -r /etc/postfix/sasl/sasl_passwd
 echo $smtpuser >> /etc/postfix/sasl/sasl_passwd
 
@@ -22,7 +22,7 @@ sudo postmap /etc/postfix/sasl/sasl_passwd
 sudo chmod 0600 /etc/postfix/sasl/sasl_passwd
 sudo chmod 0600 /etc/postfix/sasl/sasl_passwd.db
 
-#delete actual config file if exist, and create the new configuracion main.cf file
+#delete actual config file if exist, and create the new configuration main.cf file
 rm -r /etc/postfix/main.cf
 echo "#Control" >> /etc/postfix/main.cf
 echo "smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)" >> /etc/postfix/main.cf
