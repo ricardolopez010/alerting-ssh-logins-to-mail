@@ -12,4 +12,7 @@ destinationmail="destinationaccount@sysadmin.com"
 
 If you don´t have a SMTP gmail password, I suggest you to follow the next steps first (until step 6) to active it -> https://evermap.com/Tutorial_ADM_UsingAppPasswordsGmail.asp
 
+Compatibilty: UbuntuServer 20.2 or Higher
+
+
 I hope you find this script usefull
