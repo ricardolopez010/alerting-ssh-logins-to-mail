@@ -4,8 +4,8 @@
 
 #----------------------------------------------------
 
-smtpuser="[smtp.gmail.com]:587 cuentadeorigen@gmail.com:contraseña"
-destinationmail="cuentadedestion@sysadmin.com"
+smtpuser="[smtp.gmail.com]:587 remitentaccount@gmail.com:passwordapp" 
+destinationmail="destinationaccount@sysadmin.com"
 
 #----------------------------------------------------
 
